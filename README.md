@@ -1,6 +1,6 @@
 # AWS Deepracer Simulation round solution
 
-Solution was developed in collaboration with @DAOvb
+Solution was developed in collaboration with [@DAOvb](https://github.com/DAOvb)
 
 Solution is based on a simple PPO algorithm, achieves near-optimal score in AWS Deepracer environment.
 
