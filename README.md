@@ -14,6 +14,7 @@ python run_ppo_train.py
 
 To create a gif of agent's rollout:
 ```
+docker-compose up -d
 python create_gif.py save/best_416_iconic-field-98_6env_SCLight_4st1sk.pickle 
 ```
 ![Example gif](gif.gif)
