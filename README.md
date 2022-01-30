@@ -6,13 +6,13 @@ Solution was developed in collaboration with [@DAOvb](https://github.com/DAOvb).
 
 Solution is based on a simple PPO algorithm, achieves near-optimal score in AWS Deepracer environment.
 
-To start training run:
+To start training:
 ```
 docker-compose up -d
 python run_ppo_train.py
 ```
 
-To create a gif of agent's rollout run
+To create a gif of agent's rollout:
 ```
 python create_gif.py save/best_416_iconic-field-98_6env_SCLight_4st1sk.pickle 
 ```
