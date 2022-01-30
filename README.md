@@ -1,6 +1,8 @@
 # AWS Deepracer Simulation round solution
 
-Solution was developed in collaboration with [@DAOvb](https://github.com/DAOvb)
+Solution was developed in collaboration with [@DAOvb](https://github.com/DAOvb).
+
+[challenge link](https://www.aicrowd.com/challenges/neurips-2021-aws-deepracer-ai-driving-olympics-challenge)
 
 Solution is based on a simple PPO algorithm, achieves near-optimal score in AWS Deepracer environment.
 
