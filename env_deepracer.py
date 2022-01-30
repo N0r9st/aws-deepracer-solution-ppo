@@ -159,7 +159,7 @@ class SubprocVecEnv:
 
 def resize(image, shape):
     h, w, c = shape
-    return jax.image.resize(image, shape=shape, method='bilinear')[h//2:, :, :]
+    return jax.image.resize(image, shape=shape, method='bilinear')
 
 def _flatten_obs(obs):
     stacked = jnp.stack(obs)
