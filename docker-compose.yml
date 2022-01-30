@@ -1,0 +1,80 @@
+version: "3.3"
+
+services:
+  deepracer1:
+    image: aicrowd/base-images:deepracer_round2_release
+    container_name: deepracer1
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '3.0'
+          memory: 6g
+    ports:
+      - 8887:8888
+      - 5000:5000
+
+  deepracer2:
+    image: aicrowd/base-images:deepracer_round2_release
+    container_name: deepracer2
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '3.0'
+          memory: 6g
+    ports:
+      - 8886:8888
+      - 4999:5000
+
+  deepracer3:
+    image: aicrowd/base-images:deepracer_round2_release
+    container_name: deepracer3
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '3.0'
+          memory: 6g
+    ports:
+      - 8885:8888
+      - 4998:5000
+
+  deepracer4:
+    image: aicrowd/base-images:deepracer_round2_release
+    container_name: deepracer4
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '3.0'
+          memory: 6g
+    ports:
+      - 8884:8888
+      - 4997:5000
+
+  deepracer5:
+    image: aicrowd/base-images:deepracer_round2_release
+    container_name: deepracer5
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '3.0'
+          memory: 6g
+    ports:
+      - 8883:8888
+      - 4996:5000
+
+  deepracer6:
+    image: aicrowd/base-images:deepracer_round2_release
+    container_name: deepracer6
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '3.0'
+          memory: 6g
+    ports:
+      - 8882:8888
+      - 4995:5000
